@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header11{
+    /* background-color: beige; */
+    background: #0D1540;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    padding: .5rem;
+    flex-flow: row-reverse;
+}
+
+.header11 h4{
+    border-radius: 70px;
+    border: 1px solid whitesmoke;
+    padding: .3rem 3rem;
+    /* padding: .3rem 3rem .3rem 3rem; */
+    
+}
+.header21{
+    background: white;
+    color: black;
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.header21 ul{
+display: flex;
+justify-content: center;
+padding-right: 60rem;
+}
+.header21 ul li{
+    list-style: none;
+    padding-left: 9rem;
+}
+
+.header31{
+    color: #17A3D8;
+font-family: Jacques Francois;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 8rem;
+padding: 1rem;
+display: flex;
+align-items:center ;
+}
+.header31 img{
+   height: 50rem;
+   width: 60rem; 
+   ;
+   
+}
+.header32 img{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    backdrop-filter: blur(2px);
+    width: 120rem;
+}
+.header32 h4{
+    padding: 1rem;
+}
+.middle11 h2{
+    color: #1B9BD9;
+font-family: Jacques Francois;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/* padding: 10rem; */
+
+
+
+    
+}
+.middle11 h5{
+color: #56C5E0;
+font-family: Jacques Francois;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
+    /* padding: 3rem; */
+}
+.middle11{
+    text-align: center;
+    padding: 4rem;
+}
+
+.middle12{
+    text-align: center;
+    width: 100%;
+}
+.middle12 img{
+    width: 100%;
+    object-fit: revert;
+}
+.about_us_text_bottom{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.about_us_text_bottom_1{
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    
+}
