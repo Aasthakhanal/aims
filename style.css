@@ -110,6 +110,20 @@ line-height: normal;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 0 2rem;
-    
+    padding: 0 9rem;
+}
+.container{
+    display: flex;
+}
+.get_started_bottom img{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 50rem;
+    margin: 3rem;
+
+}
+.get_started_bottom h4{
+    display: flex;
+    width: 4rem;
+    margin: 2rem;
+    align-items: centers;
 }
